@@ -55,8 +55,8 @@ ROOT_URLCONF = "MVTFamilia.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [r"C:\Users\Pc\Desktop\Primer MVT\MVTFamilia\Familia\templates\template1.html"],
         "APP_DIRS": True,
+        "DIRS": [f"{BASE_DIR}/Primer MVT/MVTFamilia/Familia/templates"],
         "OPTIONS": {
             "context_processors": [
                 "django.template.context_processors.debug",
