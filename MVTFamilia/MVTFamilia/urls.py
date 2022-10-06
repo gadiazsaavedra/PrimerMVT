@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from Familia.views import crear_familiar
 
 urlpatterns = [
     path("admin/", admin.site.urls),
+    path("Familia/", crear_familiar),
 ]
